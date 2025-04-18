@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="js/content-loader.js"></script>
 </head>
 
 <body>
@@ -50,8 +52,7 @@
       <div class="page-section">
 
         <h2 class="page-section__title">Over mij</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Ik ben Matthias De Ryck, actief als postdoc onderzoeker bij KU Leuven, en sinds 6 jaar actief in het ondersteunen van jongeren en (jong-) volwassenen in de stappen naar hun toekomstige carrière. </p>
+        <p class="page-section__paragraph">Ik ben Matthias De Ryck, sinds 7 jaar actief in het ondersteunen van jongeren en (jong-) volwassenen in de stappen naar hun toekomstige carrière. </p>
         
         <div class="row">
          
@@ -62,15 +63,18 @@
           </div>
           
           <div class="col-md-8">
-            <p class="about__description">Na mijn universitaire studie als Industrieel Ingenieur Elektromechanica aan KU Leuven Gent ben ik gestart aan een doctoraat in AI en robotica aan KU Leuven Brugge. Ondertussen werk ik sinds twee jaar als postdoc onderzoeker bij KU Leuven Brugge waarin ik de brug leg tussen de academische wereld en de industrie. Bij de start van mijn doctoraat ben ik begonnen met bijles geven aan studenten uit het middelbaar, de hogeschool, en de universiteit. Tijdens mijn periode aan KU Leuven heb ik les gegeven aan de Bachelors en Masters Industrieel Ingenieur voor de vakken Machinevisie, Industriële Robotica en Toegepaste Numerieke Technieken. Daarnaast ben ik reeds twee jaar actief als lesgever bij CodeFever waarin we kinderen de basisbeginselen van het programmeren aanleren. Ik ben gebeten door wetenschap en technologie en het is altijd mijn passie geweest om mijn opgedane kennis zo veel als mogelijk te delen met zoveel mogelijk mensen. Mijn aanpak bij het bijles geven is vooral het starten bij de basis en het voorzien van inzichten in de materie door deze te bekijken vanuit verschillende standpunten. In tegenstelling tot louter alles van buiten te leren zorgt dit voor een meer duurzame en comfortabelere leerervaring. </p>
+            <div id="about-description-container">
+              <!-- Content will be loaded here -->
+              <div class="loading-indicator">Loading...</div>
+            </div>
             
             <div class="row row--margin-top">
               <div class="col-md-4">
                 <p class="about__bio"><strong>Naam :</strong> Matthias De Ryck</p>
-                <p class="about__bio"><strong>Leeftijd :</strong> 28</p>
+                <p class="about__bio"><strong>Leeftijd :</strong> 29</p>
               </div>
-              <div class="col-md-4">
-                <p class="about__bio"><strong>Jobbeschrijving :</strong> Postdoc</p>
+              <div class="col-md-6">
+                <p class="about__bio"><strong>Jobbeschrijving :</strong> AI Solution Architect</p>
                 <p class="about__bio"><strong>Woonplaats :</strong> Gent</p>
               </div>
             </div>
@@ -93,28 +97,27 @@
       <div class="page-section">
 
         <h2 class="page-section__title page-section__title--white">Wat kan ik voor u betekenen?</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
         <p class="page-section__paragraph page-section__paragraph--white">Ik kan ondersteuning bieden aan studenten en volwassenen in de stappen naar hun verdere carrière. </p>
         
         <div class="row gutters-70">
           
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <h4 class="service__single-section__title">Middelbaar <br> (€25 / uur)</h4>
+              <h4 class="service__single-section__title">Middelbaar <br> (€30 / uur)</h4>
               <p class="service__single-section__paragraph">Wiskunde / Fysica / Programmeren (Scratch, Python, Matlab) <br> </p>
             </div>
           </div>
           
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <h4 class="service__single-section__title">Hogeschool / Universiteit <br> (€30 / uur)</h4>
+              <h4 class="service__single-section__title">Hogeschool / Universiteit <br> (€40 / uur)</h4>
               <p class="service__single-section__paragraph">Wiskunde / Fysica / Programmeren (Scratch, Python, Matlab) / Thesis </p>
             </div>
           </div>
           
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <h4 class="service__single-section__title">Professioneel <br> (€40 / uur)</h4>
+              <h4 class="service__single-section__title">Professioneel <br> (€50 / uur)</h4>
               <p class="service__single-section__paragraph">Robotica / Machinevisie / Artificiële Intelligentie <br> </p>
             </div>
           </div>
@@ -134,20 +137,10 @@
       <div class="page-section">
 
         <h2 class="page-section__title">Graag iets inplannen?</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Bel mij gerust of stuur een mailtje naar <a href="mailto:matthias.deryck@educoaching.be">matthias.deryck@educoaching.be</a> en dan kunnen we samen kijken welke lesvorm voor u geschikt is en wanneer we een eventuele eerste les kunnen inplannen.</p>
-        
-        <!--
-        <div class="text-center">
-          <a class="button button--colorful text-center" href="https://outlook.office.com/bookwithme/user/9aabf8744d15497c9bfa3397cb7d8a7c@kuleuven.be/meetingtype/Y37omU8SPkuoKGoVosdkGQ2?bookingcode=22fc1240-f752-4b45-8049-53aef019ad9c&anonymous&ep=mlink">Plan iets in</a>
+        <div id="service-description-container">
+          <!-- Content will be loaded here -->
+          <div class="loading-indicator">Loading...</div>
         </div>
-        -->
-
-        <!--
-        <div class="page-section2">
-          <p class="page-section__paragraph">Let op: Na het boeken van een tijdsslot en het geven van de ondersteuning zal vermeld tarief worden aangerekend! </p>
-        </div>
-        -->
         
       </div>
     </div>
@@ -166,7 +159,7 @@
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
     <div class="container text-center">
-      <p class="footer__paragraph">Copyright &copy; 2024 Matthias De Ryck.</p>
+      <p class="footer__paragraph">Copyright &copy; 2025 Matthias De Ryck.</p>
     </div>
   </footer>
 </a>
@@ -174,4 +167,4 @@
 </div>
   
 </body>
-</html>  
+</html>
